@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Donate more</string>
+
+
+    <string-array name="kläder">
+        <item>Jeans</item>
+        <item>Skorta</item>
+        <item>Jacka</item>
+        <item>T-shirt</item>
+        <item>Kjol</item>
+        <item>Klänning</item>
+
+    </string-array>
+
+    <string-array name="Size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+
+</resources>

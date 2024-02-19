@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_recycle" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Välje typ av kläder"/>
+
+        <Spinner
+            android:id="@+id/newSpinner"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/kläder"
+            android:minHeight="48dp">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Välje storlek" />
+
+        <Spinner
+            android:id="@+id/storlek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/Size"
+            android:minHeight="48dp">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/tillkassa"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="done"
+            android:text="Tryck här om du är klar" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
